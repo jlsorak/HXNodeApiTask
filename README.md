@@ -11,7 +11,7 @@ Send requests using a HTTP client, I used [Postman](https://www.getpostman.com/)
 #### POST (Create)
 - (Create record) `/users` <br/> Request body: `forename, surname, email`
 #### GET (Read)
-- (Read all records) `/users` <br/> Optional query string: (any of) `?forename=&surname=&email`
+- (Read all records) `/users` <br/> Optional query string: (any of) `?forename=&surname=&email=`
 - (Read record by `id`) `/users/:id` 
 #### PUT (Update)
 - (Update record by `id`) `/users/:id` <br/> Required params: `forename, surname, email`
