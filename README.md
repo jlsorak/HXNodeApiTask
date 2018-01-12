@@ -8,12 +8,12 @@ My implementation of a technical task Holiday Extras requires their new recruits
 ## Sending requests
 Send requests using a HTTP client, I used [Postman](https://www.getpostman.com/).
 
-#### PUT (Create)
-- (Create record) `/users` <br/> Required params: `forename, surname, email`
+#### POST (Create)
+- (Create record) `/users` <br/> Request body: `forename, surname, email`
 #### GET (Read)
 - (Read all records) `/users` <br/> Optional query string: (any of) `?forename=&surname=&email`
 - (Read record by `id`) `/users/:id` 
-#### POST (Update)
+#### PUT (Update)
 - (Update record by `id`) `/users/:id` <br/> Required params: `forename, surname, email`
 #### DELETE (Delete)
 - (Delete record by `id`) `/users/:id`
