@@ -11,7 +11,8 @@ router.post('/', function (req, res) {
     User.create({
             forename: req.body.forename,
             surname: req.body.surname,
-            email: req.body.email
+            email: req.body.email,
+            createdAt: Date.now() 
         }, 
         //Handle error, if all ok return 200
         function (err, user) {
