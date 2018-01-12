@@ -2,11 +2,11 @@
 
 My implementation of a technical task Holiday Extras requires their new recruits to complete. The task involves creating an API to manage a user persistence layer.
 
-[Read full description here]{https://github.com/holidayextras/culture/blob/master/recruitment/developer-API-task.md}.
+[Read full description here](https://github.com/holidayextras/culture/blob/master/recruitment/developer-API-task.md).
 
 
 ## Sending requests
-Send requests using a HTTP client, I used [Postman]{https://www.getpostman.com/}. 
+Send requests using a HTTP client, I used [Postman](https://www.getpostman.com/).
 
 #### PUT (Create)
 - (Create record) `/users` <br/> Required params: `forename, surname, email`
